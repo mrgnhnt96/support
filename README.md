@@ -4,7 +4,11 @@ Public support pages and privacy policies for MRGNHNT, LLC apps, hosted on
 GitHub Pages. The App Store and Google Play both require a reachable privacy
 policy URL and support URL per app; this is where they point.
 
-**Live:** https://mrgnhnt96.github.io/support/
+**Live:** https://mrgnhnt.com/support/
+
+The account has a custom domain, so project pages are served from the apex
+domain rather than `mrgnhnt96.github.io`. Both resolve; use the apex one in
+store listings.
 
 ## Layout
 
