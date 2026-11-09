@@ -15,17 +15,25 @@ store listings.
 ```
 index.html            landing page, lists every app
 style.css             shared styling
+icon-180.png          MRGNHNT icon (favicon for the landing page)
+sitemap.xml           every page, with the date it last changed
+404.html              not-found page (absolute /support/ links)
+docs/marketing/       page brief: what each claim on the pages rests on
 <app-slug>/
   index.html          app hub
+  icon-180.png        the app's icon, 180x180 (favicon for its pages)
+  share-v1.png        1200x630 share image (the Play feature graphic, padded)
   privacy/index.html  privacy policy
   support/index.html  support page
 ```
 
 ## Adding an app
 
-Copy the `gun-fu/` directory, rename it, edit the three pages, and add a card to
-the root `index.html`. Keep the privacy policy honest about which SDKs the app
-actually ships — it is a legal document, and App Review reads it.
+Copy the `gun-fu/` directory, rename it, edit the three pages (including each
+page's description and canonical URL), swap in the app's icon, add a card to the
+root `index.html`, and add the three URLs to `sitemap.xml`. Record what each
+privacy statement rests on in `docs/marketing/page-brief.md`. Keep the privacy
+policy honest about which SDKs the app actually ships — it is a legal document, and App Review reads it.
 
 ## Notes
 
