@@ -40,6 +40,10 @@ Checked against the game's repository (`flutter/gun_fu`, commit `95137a1`, 14 Au
 
 - Morgan: confirm you'll handle email requests to delete a player's RevenueCat purchase record, and
   that the third-party protection sentence in the privacy policy is one you stand behind.
+- Morgan: add Google's consent form (User Messaging Platform) to the game for EEA and UK players,
+  with a way to change consent later, then put the consent sentence back in the privacy policy and
+  say how to withdraw consent. Until then, AdMob in the EEA and UK breaks Google's EU User Consent
+  Policy.
 - Morgan: confirm the store age rating (the policy says 12+) once the listings are set.
 - Morgan: add `Sitemap: https://mrgnhnt.com/support/sitemap.xml` to the apex `robots.txt` (personal
   site repository), or submit it in Search Console.
